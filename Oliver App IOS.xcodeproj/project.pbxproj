@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6D01902553E5B500C30BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D018F2553E5B500C30BA4 /* AppDelegate.swift */; };
+		1A6D01922553E5B500C30BA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01912553E5B500C30BA4 /* SceneDelegate.swift */; };
+		1A6D01942553E5B500C30BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01932553E5B500C30BA4 /* ViewController.swift */; };
+		1A6D01972553E5B500C30BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D01952553E5B500C30BA4 /* Main.storyboard */; };
+		1A6D01992553E5B700C30BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D01982553E5B700C30BA4 /* Assets.xcassets */; };
+		1A6D019C2553E5B700C30BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D019A2553E5B700C30BA4 /* LaunchScreen.storyboard */; };
+		1A6D01A72553E5B800C30BA4 /* Oliver_App_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01A62553E5B800C30BA4 /* Oliver_App_IOSTests.swift */; };
+		1A6D01B22553E5B800C30BA4 /* Oliver_App_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01B12553E5B800C30BA4 /* Oliver_App_IOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6D01A32553E5B700C30BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6D01842553E5B500C30BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6D018B2553E5B500C30BA4;
+			remoteInfo = "Oliver App IOS";
+		};
+		1A6D01AE2553E5B800C30BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6D01842553E5B500C30BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6D018B2553E5B500C30BA4;
+			remoteInfo = "Oliver App IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A6D018C2553E5B500C30BA4 /* Oliver App IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oliver App IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D018F2553E5B500C30BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A6D01912553E5B500C30BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A6D01932553E5B500C30BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A6D01962553E5B500C30BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A6D01982553E5B700C30BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6D019B2553E5B700C30BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6D019D2553E5B700C30BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D01A22553E5B700C30BA4 /* Oliver App IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oliver App IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D01A62553E5B800C30BA4 /* Oliver_App_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oliver_App_IOSTests.swift; sourceTree = "<group>"; };
+		1A6D01A82553E5B800C30BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D01AD2553E5B800C30BA4 /* Oliver App IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oliver App IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D01B12553E5B800C30BA4 /* Oliver_App_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oliver_App_IOSUITests.swift; sourceTree = "<group>"; };
+		1A6D01B32553E5B800C30BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6D01892553E5B500C30BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D019F2553E5B700C30BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01AA2553E5B800C30BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6D01832553E5B500C30BA4 = {
+			isa = PBXGroup;
+			children = (
+				1A6D018E2553E5B500C30BA4 /* Oliver App IOS */,
+				1A6D01A52553E5B800C30BA4 /* Oliver App IOSTests */,
+				1A6D01B02553E5B800C30BA4 /* Oliver App IOSUITests */,
+				1A6D018D2553E5B500C30BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6D018D2553E5B500C30BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D018C2553E5B500C30BA4 /* Oliver App IOS.app */,
+				1A6D01A22553E5B700C30BA4 /* Oliver App IOSTests.xctest */,
+				1A6D01AD2553E5B800C30BA4 /* Oliver App IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6D018E2553E5B500C30BA4 /* Oliver App IOS */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D018F2553E5B500C30BA4 /* AppDelegate.swift */,
+				1A6D01912553E5B500C30BA4 /* SceneDelegate.swift */,
+				1A6D01932553E5B500C30BA4 /* ViewController.swift */,
+				1A6D01952553E5B500C30BA4 /* Main.storyboard */,
+				1A6D01982553E5B700C30BA4 /* Assets.xcassets */,
+				1A6D019A2553E5B700C30BA4 /* LaunchScreen.storyboard */,
+				1A6D019D2553E5B700C30BA4 /* Info.plist */,
+			);
+			path = "Oliver App IOS";
+			sourceTree = "<group>";
+		};
+		1A6D01A52553E5B800C30BA4 /* Oliver App IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D01A62553E5B800C30BA4 /* Oliver_App_IOSTests.swift */,
+				1A6D01A82553E5B800C30BA4 /* Info.plist */,
+			);
+			path = "Oliver App IOSTests";
+			sourceTree = "<group>";
+		};
+		1A6D01B02553E5B800C30BA4 /* Oliver App IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D01B12553E5B800C30BA4 /* Oliver_App_IOSUITests.swift */,
+				1A6D01B32553E5B800C30BA4 /* Info.plist */,
+			);
+			path = "Oliver App IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6D018B2553E5B500C30BA4 /* Oliver App IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D01B62553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOS" */;
+			buildPhases = (
+				1A6D01882553E5B500C30BA4 /* Sources */,
+				1A6D01892553E5B500C30BA4 /* Frameworks */,
+				1A6D018A2553E5B500C30BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oliver App IOS";
+			productName = "Oliver App IOS";
+			productReference = 1A6D018C2553E5B500C30BA4 /* Oliver App IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A6D01A12553E5B700C30BA4 /* Oliver App IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D01B92553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSTests" */;
+			buildPhases = (
+				1A6D019E2553E5B700C30BA4 /* Sources */,
+				1A6D019F2553E5B700C30BA4 /* Frameworks */,
+				1A6D01A02553E5B700C30BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6D01A42553E5B700C30BA4 /* PBXTargetDependency */,
+			);
+			name = "Oliver App IOSTests";
+			productName = "Oliver App IOSTests";
+			productReference = 1A6D01A22553E5B700C30BA4 /* Oliver App IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A6D01AC2553E5B800C30BA4 /* Oliver App IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D01BC2553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSUITests" */;
+			buildPhases = (
+				1A6D01A92553E5B800C30BA4 /* Sources */,
+				1A6D01AA2553E5B800C30BA4 /* Frameworks */,
+				1A6D01AB2553E5B800C30BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6D01AF2553E5B800C30BA4 /* PBXTargetDependency */,
+			);
+			name = "Oliver App IOSUITests";
+			productName = "Oliver App IOSUITests";
+			productReference = 1A6D01AD2553E5B800C30BA4 /* Oliver App IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6D01842553E5B500C30BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1A6D018B2553E5B500C30BA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1A6D01A12553E5B700C30BA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1A6D018B2553E5B500C30BA4;
+					};
+					1A6D01AC2553E5B800C30BA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1A6D018B2553E5B500C30BA4;
+					};
+				};
+			};
+			buildConfigurationList = 1A6D01872553E5B500C30BA4 /* Build configuration list for PBXProject "Oliver App IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6D01832553E5B500C30BA4;
+			productRefGroup = 1A6D018D2553E5B500C30BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6D018B2553E5B500C30BA4 /* Oliver App IOS */,
+				1A6D01A12553E5B700C30BA4 /* Oliver App IOSTests */,
+				1A6D01AC2553E5B800C30BA4 /* Oliver App IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6D018A2553E5B500C30BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D019C2553E5B700C30BA4 /* LaunchScreen.storyboard in Resources */,
+				1A6D01992553E5B700C30BA4 /* Assets.xcassets in Resources */,
+				1A6D01972553E5B500C30BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01A02553E5B700C30BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01AB2553E5B800C30BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6D01882553E5B500C30BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D01942553E5B500C30BA4 /* ViewController.swift in Sources */,
+				1A6D01902553E5B500C30BA4 /* AppDelegate.swift in Sources */,
+				1A6D01922553E5B500C30BA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D019E2553E5B700C30BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D01A72553E5B800C30BA4 /* Oliver_App_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01A92553E5B800C30BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D01B22553E5B800C30BA4 /* Oliver_App_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6D01A42553E5B700C30BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6D018B2553E5B500C30BA4 /* Oliver App IOS */;
+			targetProxy = 1A6D01A32553E5B700C30BA4 /* PBXContainerItemProxy */;
+		};
+		1A6D01AF2553E5B800C30BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6D018B2553E5B500C30BA4 /* Oliver App IOS */;
+			targetProxy = 1A6D01AE2553E5B800C30BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A6D01952553E5B500C30BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6D01962553E5B500C30BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A6D019A2553E5B700C30BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6D019B2553E5B700C30BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6D01B42553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A6D01B52553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6D01B72553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6D01B82553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A6D01BA2553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oliver App IOS.app/Oliver App IOS";
+			};
+			name = Debug;
+		};
+		1A6D01BB2553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oliver App IOS.app/Oliver App IOS";
+			};
+			name = Release;
+		};
+		1A6D01BD2553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Oliver App IOS";
+			};
+			name = Debug;
+		};
+		1A6D01BE2553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Oliver App IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6D01872553E5B500C30BA4 /* Build configuration list for PBXProject "Oliver App IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01B42553E5B800C30BA4 /* Debug */,
+				1A6D01B52553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D01B62553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01B72553E5B800C30BA4 /* Debug */,
+				1A6D01B82553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D01B92553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01BA2553E5B800C30BA4 /* Debug */,
+				1A6D01BB2553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D01BC2553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01BD2553E5B800C30BA4 /* Debug */,
+				1A6D01BE2553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6D01842553E5B500C30BA4 /* Project object */;
+}
