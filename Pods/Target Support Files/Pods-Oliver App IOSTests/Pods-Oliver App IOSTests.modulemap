@@ -1,0 +1,6 @@
+framework module Pods_Oliver_App_IOSTests {
+  umbrella header "Pods-Oliver App IOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

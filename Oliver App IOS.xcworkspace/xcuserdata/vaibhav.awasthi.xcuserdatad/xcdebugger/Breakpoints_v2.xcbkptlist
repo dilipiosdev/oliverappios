@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8BAF9D13-936D-46A1-AE6C-E7F27A6E2288"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49AE7312-186F-4004-9A54-6F1F16C53CEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Oliver App IOS/Controller/Home/NegociosRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1279"
+            endingLineNumber = "1279"
+            landmarkName = "buttonContinue5(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "002680BA-DE9D-4C59-9E6C-EA5CC5F334D3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Oliver App IOS/Controller/Home/NegociosRegisterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1275"
+            endingLineNumber = "1275"
+            landmarkName = "buttonContinue5(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "002680BA-DE9D-4C59-9E6C-EA5CC5F334D3 - 280b8b6da852342"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Oliver_App_IOS.NegociosRegisterViewController.buttonContinue5(Any) -&gt; ()"
+                  moduleName = "Oliver App IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhav.awasthi/Desktop/Oliver%20App%20IOS/Oliver%20App%20IOS/Controller/Home/NegociosRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1268"
+                  endingLineNumber = "1268"
+                  offsetFromSymbolStart = "1299">
+               </Location>
+               <Location
+                  uuid = "002680BA-DE9D-4C59-9E6C-EA5CC5F334D3 - 4dbc4ce6cd6ec433"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Alamofire.DataResponse&lt;Any, Alamofire.AFError&gt;) -&gt; () in Oliver_App_IOS.NegociosRegisterViewController.buttonContinue5(Any) -&gt; ()"
+                  moduleName = "Oliver App IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vaibhav.awasthi/Desktop/Oliver%20App%20IOS/Oliver%20App%20IOS/Controller/Home/NegociosRegisterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1269"
+                  endingLineNumber = "1269"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

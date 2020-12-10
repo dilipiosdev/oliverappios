@@ -1,0 +1,6 @@
+framework module Pods_Oliver_App_IOS_Oliver_App_IOSUITests {
+  umbrella header "Pods-Oliver App IOS-Oliver App IOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

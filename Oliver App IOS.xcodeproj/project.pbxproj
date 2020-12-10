@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3A539E257B6ECC00BFB11B /* CompanyHomeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A539D257B6ECC00BFB11B /* CompanyHomeDetailVC.swift */; };
+		1A3A53BA257B818300BFB11B /* ComapnyDetailCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A53B8257B818300BFB11B /* ComapnyDetailCVC.swift */; };
+		1A3A53BB257B818300BFB11B /* ComapnyDetailCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3A53B9257B818300BFB11B /* ComapnyDetailCVC.xib */; };
+		1A3A53C9257B87EC00BFB11B /* CompantDatilTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3A53C7257B87EC00BFB11B /* CompantDatilTVC.swift */; };
+		1A3A53CA257B87EC00BFB11B /* CompantDatilTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3A53C8257B87EC00BFB11B /* CompantDatilTVC.xib */; };
+		1A3E6B0E25591F7F0056524D /* assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6B0A25591F7E0056524D /* assets.bundle */; };
+		1A3E6B0F25591F7F0056524D /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E6B0B25591F7E0056524D /* CallingCodes.plist */; };
+		1A3E6B1025591F7F0056524D /* ADCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E6B0C25591F7E0056524D /* ADCountryPicker.swift */; };
+		1A3E6B1125591F7F0056524D /* ADCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E6B0D25591F7E0056524D /* ADCountry.swift */; };
+		1A4059E5257B60FB00CB1EE3 /* CompanyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4059E4257B60FB00CB1EE3 /* CompanyHomeViewController.swift */; };
+		1A4582DA255EB1BB0011AE53 /* RegisterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4582D8255EB1BB0011AE53 /* RegisterTableViewCell.swift */; };
+		1A4582DB255EB1BB0011AE53 /* RegisterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4582D9255EB1BB0011AE53 /* RegisterTableViewCell.xib */; };
+		1A4961312572264300B0C951 /* NegociosListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4961302572264300B0C951 /* NegociosListViewController.swift */; };
+		1A496137257229CD00B0C951 /* GlobleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A496136257229CD00B0C951 /* GlobleClass.swift */; };
+		1A49613D25722F2900B0C951 /* NegociosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49613B25722F2900B0C951 /* NegociosTableViewCell.swift */; };
+		1A49613E25722F2900B0C951 /* NegociosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A49613C25722F2900B0C951 /* NegociosTableViewCell.xib */; };
+		1A4961432572387D00B0C951 /* NegociosRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4961422572387D00B0C951 /* NegociosRegisterViewController.swift */; };
+		1A6950472556CE9A00E511BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A6950462556CE9A00E511BD /* GoogleService-Info.plist */; };
+		1A6D01902553E5B500C30BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D018F2553E5B500C30BA4 /* AppDelegate.swift */; };
+		1A6D01922553E5B500C30BA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01912553E5B500C30BA4 /* SceneDelegate.swift */; };
+		1A6D01942553E5B500C30BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01932553E5B500C30BA4 /* ViewController.swift */; };
+		1A6D01972553E5B500C30BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D01952553E5B500C30BA4 /* Main.storyboard */; };
+		1A6D01992553E5B700C30BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D01982553E5B700C30BA4 /* Assets.xcassets */; };
+		1A6D019C2553E5B700C30BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D019A2553E5B700C30BA4 /* LaunchScreen.storyboard */; };
+		1A6D01A72553E5B800C30BA4 /* Oliver_App_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01A62553E5B800C30BA4 /* Oliver_App_IOSTests.swift */; };
+		1A6D01B22553E5B800C30BA4 /* Oliver_App_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01B12553E5B800C30BA4 /* Oliver_App_IOSUITests.swift */; };
+		1A6D01C72554331E00C30BA4 /* Bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A6D01C62554331E00C30BA4 /* Bg.png */; };
+		1A6D01CE2554380E00C30BA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6D01CD2554380E00C30BA4 /* LoginViewController.swift */; };
+		1A814A20256FF3A0001C0EC4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A814A1F256FF3A0001C0EC4 /* Home.storyboard */; };
+		1A814A26256FF3D1001C0EC4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814A25256FF3D1001C0EC4 /* HomeViewController.swift */; };
+		1AFCC2632555318100162FE3 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCC2612555318100162FE3 /* OtpViewController.swift */; };
+		1AFCC28B25556D8700162FE3 /* LoginWithPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCC28A25556D8700162FE3 /* LoginWithPinViewController.swift */; };
+		1AFCC29025558A5E00162FE3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFCC28F25558A5E00162FE3 /* RegisterViewController.swift */; };
+		98844B9DE95F23279B001803 /* Pods_Oliver_App_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465DAD108E851FC7EC5CE391 /* Pods_Oliver_App_IOSTests.framework */; };
+		D491C34513D37147236511EC /* Pods_Oliver_App_IOS_Oliver_App_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27032A268DBB7CDE07559EAE /* Pods_Oliver_App_IOS_Oliver_App_IOSUITests.framework */; };
+		E762742B258633CD4D3CC3D8 /* Pods_Oliver_App_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A655E7D8389B6288AFB5B8C1 /* Pods_Oliver_App_IOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6D01A32553E5B700C30BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6D01842553E5B500C30BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6D018B2553E5B500C30BA4;
+			remoteInfo = "Oliver App IOS";
+		};
+		1A6D01AE2553E5B800C30BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6D01842553E5B500C30BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6D018B2553E5B500C30BA4;
+			remoteInfo = "Oliver App IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0236CAF470B2EB9EFD84518B /* Pods-Oliver App IOS-Oliver App IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oliver App IOS-Oliver App IOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Oliver App IOS-Oliver App IOSUITests/Pods-Oliver App IOS-Oliver App IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11DE24A8DC6EFC21A955C323 /* Pods-Oliver App IOS-Oliver App IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oliver App IOS-Oliver App IOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Oliver App IOS-Oliver App IOSUITests/Pods-Oliver App IOS-Oliver App IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A3A539D257B6ECC00BFB11B /* CompanyHomeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHomeDetailVC.swift; sourceTree = "<group>"; };
+		1A3A53B8257B818300BFB11B /* ComapnyDetailCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComapnyDetailCVC.swift; sourceTree = "<group>"; };
+		1A3A53B9257B818300BFB11B /* ComapnyDetailCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComapnyDetailCVC.xib; sourceTree = "<group>"; };
+		1A3A53C7257B87EC00BFB11B /* CompantDatilTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompantDatilTVC.swift; sourceTree = "<group>"; };
+		1A3A53C8257B87EC00BFB11B /* CompantDatilTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompantDatilTVC.xib; sourceTree = "<group>"; };
+		1A3E6B0A25591F7E0056524D /* assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = assets.bundle; sourceTree = "<group>"; };
+		1A3E6B0B25591F7E0056524D /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
+		1A3E6B0C25591F7E0056524D /* ADCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountryPicker.swift; sourceTree = "<group>"; };
+		1A3E6B0D25591F7E0056524D /* ADCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADCountry.swift; sourceTree = "<group>"; };
+		1A4059E4257B60FB00CB1EE3 /* CompanyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHomeViewController.swift; sourceTree = "<group>"; };
+		1A4582D8255EB1BB0011AE53 /* RegisterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTableViewCell.swift; sourceTree = "<group>"; };
+		1A4582D9255EB1BB0011AE53 /* RegisterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterTableViewCell.xib; sourceTree = "<group>"; };
+		1A4961302572264300B0C951 /* NegociosListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegociosListViewController.swift; sourceTree = "<group>"; };
+		1A496136257229CD00B0C951 /* GlobleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobleClass.swift; sourceTree = "<group>"; };
+		1A49613B25722F2900B0C951 /* NegociosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegociosTableViewCell.swift; sourceTree = "<group>"; };
+		1A49613C25722F2900B0C951 /* NegociosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NegociosTableViewCell.xib; sourceTree = "<group>"; };
+		1A4961422572387D00B0C951 /* NegociosRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegociosRegisterViewController.swift; sourceTree = "<group>"; };
+		1A6950462556CE9A00E511BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1A6D018C2553E5B500C30BA4 /* Oliver App IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Oliver App IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D018F2553E5B500C30BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A6D01912553E5B500C30BA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1A6D01932553E5B500C30BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A6D01962553E5B500C30BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A6D01982553E5B700C30BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6D019B2553E5B700C30BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6D019D2553E5B700C30BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D01A22553E5B700C30BA4 /* Oliver App IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oliver App IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D01A62553E5B800C30BA4 /* Oliver_App_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oliver_App_IOSTests.swift; sourceTree = "<group>"; };
+		1A6D01A82553E5B800C30BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D01AD2553E5B800C30BA4 /* Oliver App IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oliver App IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6D01B12553E5B800C30BA4 /* Oliver_App_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oliver_App_IOSUITests.swift; sourceTree = "<group>"; };
+		1A6D01B32553E5B800C30BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6D01C62554331E00C30BA4 /* Bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bg.png; sourceTree = "<group>"; };
+		1A6D01CD2554380E00C30BA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1A814A1F256FF3A0001C0EC4 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1A814A25256FF3D1001C0EC4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1AFCC2612555318100162FE3 /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
+		1AFCC28A25556D8700162FE3 /* LoginWithPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithPinViewController.swift; sourceTree = "<group>"; };
+		1AFCC28F25558A5E00162FE3 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		27032A268DBB7CDE07559EAE /* Pods_Oliver_App_IOS_Oliver_App_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oliver_App_IOS_Oliver_App_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		465DAD108E851FC7EC5CE391 /* Pods_Oliver_App_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oliver_App_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8DAC1816CDA8C96B52E103 /* Pods-Oliver App IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oliver App IOS.debug.xcconfig"; path = "Target Support Files/Pods-Oliver App IOS/Pods-Oliver App IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		907E5D542A91724258AD3044 /* Pods-Oliver App IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oliver App IOSTests.release.xcconfig"; path = "Target Support Files/Pods-Oliver App IOSTests/Pods-Oliver App IOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A655E7D8389B6288AFB5B8C1 /* Pods_Oliver_App_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oliver_App_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E819CAFF29258FB3C84BC730 /* Pods-Oliver App IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oliver App IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Oliver App IOSTests/Pods-Oliver App IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F85490CE91456B39CA0141DD /* Pods-Oliver App IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oliver App IOS.release.xcconfig"; path = "Target Support Files/Pods-Oliver App IOS/Pods-Oliver App IOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6D01892553E5B500C30BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E762742B258633CD4D3CC3D8 /* Pods_Oliver_App_IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D019F2553E5B700C30BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98844B9DE95F23279B001803 /* Pods_Oliver_App_IOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01AA2553E5B800C30BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D491C34513D37147236511EC /* Pods_Oliver_App_IOS_Oliver_App_IOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3E6B0925591F7E0056524D /* CountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E6B0A25591F7E0056524D /* assets.bundle */,
+				1A3E6B0B25591F7E0056524D /* CallingCodes.plist */,
+				1A3E6B0C25591F7E0056524D /* ADCountryPicker.swift */,
+				1A3E6B0D25591F7E0056524D /* ADCountry.swift */,
+			);
+			path = CountryPicker;
+			sourceTree = "<group>";
+		};
+		1A4059E3257B60D000CB1EE3 /* CompanyHome */ = {
+			isa = PBXGroup;
+			children = (
+				1A4059E4257B60FB00CB1EE3 /* CompanyHomeViewController.swift */,
+				1A3A539D257B6ECC00BFB11B /* CompanyHomeDetailVC.swift */,
+				1A3A53B8257B818300BFB11B /* ComapnyDetailCVC.swift */,
+				1A3A53B9257B818300BFB11B /* ComapnyDetailCVC.xib */,
+				1A3A53C7257B87EC00BFB11B /* CompantDatilTVC.swift */,
+				1A3A53C8257B87EC00BFB11B /* CompantDatilTVC.xib */,
+			);
+			path = CompanyHome;
+			sourceTree = "<group>";
+		};
+		1A4582D7255EB19F0011AE53 /* tableCell */ = {
+			isa = PBXGroup;
+			children = (
+				1A4582D8255EB1BB0011AE53 /* RegisterTableViewCell.swift */,
+				1A4582D9255EB1BB0011AE53 /* RegisterTableViewCell.xib */,
+				1A49613B25722F2900B0C951 /* NegociosTableViewCell.swift */,
+				1A49613C25722F2900B0C951 /* NegociosTableViewCell.xib */,
+			);
+			path = tableCell;
+			sourceTree = "<group>";
+		};
+		1A496135257229A400B0C951 /* SinglotonClass */ = {
+			isa = PBXGroup;
+			children = (
+				1A496136257229CD00B0C951 /* GlobleClass.swift */,
+			);
+			path = SinglotonClass;
+			sourceTree = "<group>";
+		};
+		1A6D01832553E5B500C30BA4 = {
+			isa = PBXGroup;
+			children = (
+				1A6D018E2553E5B500C30BA4 /* Oliver App IOS */,
+				1A6D01A52553E5B800C30BA4 /* Oliver App IOSTests */,
+				1A6D01B02553E5B800C30BA4 /* Oliver App IOSUITests */,
+				1A6D018D2553E5B500C30BA4 /* Products */,
+				BDBFAA9331660FDB7977B435 /* Pods */,
+				9F5A5F0B9E29E8A569E3E8B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6D018D2553E5B500C30BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D018C2553E5B500C30BA4 /* Oliver App IOS.app */,
+				1A6D01A22553E5B700C30BA4 /* Oliver App IOSTests.xctest */,
+				1A6D01AD2553E5B800C30BA4 /* Oliver App IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6D018E2553E5B500C30BA4 /* Oliver App IOS */ = {
+			isa = PBXGroup;
+			children = (
+				1A496135257229A400B0C951 /* SinglotonClass */,
+				1A3E6B0925591F7E0056524D /* CountryPicker */,
+				1A6D01CC255437EC00C30BA4 /* Controller */,
+				1A6D01CB255437E000C30BA4 /* View */,
+				1A6D01C62554331E00C30BA4 /* Bg.png */,
+				1A6D018F2553E5B500C30BA4 /* AppDelegate.swift */,
+				1A6D01912553E5B500C30BA4 /* SceneDelegate.swift */,
+				1A6D01932553E5B500C30BA4 /* ViewController.swift */,
+				1A6950462556CE9A00E511BD /* GoogleService-Info.plist */,
+				1A6D01982553E5B700C30BA4 /* Assets.xcassets */,
+				1A6D019A2553E5B700C30BA4 /* LaunchScreen.storyboard */,
+				1A6D019D2553E5B700C30BA4 /* Info.plist */,
+			);
+			path = "Oliver App IOS";
+			sourceTree = "<group>";
+		};
+		1A6D01A52553E5B800C30BA4 /* Oliver App IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D01A62553E5B800C30BA4 /* Oliver_App_IOSTests.swift */,
+				1A6D01A82553E5B800C30BA4 /* Info.plist */,
+			);
+			path = "Oliver App IOSTests";
+			sourceTree = "<group>";
+		};
+		1A6D01B02553E5B800C30BA4 /* Oliver App IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D01B12553E5B800C30BA4 /* Oliver_App_IOSUITests.swift */,
+				1A6D01B32553E5B800C30BA4 /* Info.plist */,
+			);
+			path = "Oliver App IOSUITests";
+			sourceTree = "<group>";
+		};
+		1A6D01CB255437E000C30BA4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D01952553E5B500C30BA4 /* Main.storyboard */,
+				1A814A1F256FF3A0001C0EC4 /* Home.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A6D01CC255437EC00C30BA4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A4059E3257B60D000CB1EE3 /* CompanyHome */,
+				1A814A24256FF3BC001C0EC4 /* Home */,
+				1A4582D7255EB19F0011AE53 /* tableCell */,
+				1AFCC2602555315900162FE3 /* Login+Register */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A814A24256FF3BC001C0EC4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1A814A25256FF3D1001C0EC4 /* HomeViewController.swift */,
+				1A4961302572264300B0C951 /* NegociosListViewController.swift */,
+				1A4961422572387D00B0C951 /* NegociosRegisterViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1AFCC2602555315900162FE3 /* Login+Register */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D01CD2554380E00C30BA4 /* LoginViewController.swift */,
+				1AFCC2612555318100162FE3 /* OtpViewController.swift */,
+				1AFCC28A25556D8700162FE3 /* LoginWithPinViewController.swift */,
+				1AFCC28F25558A5E00162FE3 /* RegisterViewController.swift */,
+			);
+			path = "Login+Register";
+			sourceTree = "<group>";
+		};
+		9F5A5F0B9E29E8A569E3E8B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A655E7D8389B6288AFB5B8C1 /* Pods_Oliver_App_IOS.framework */,
+				27032A268DBB7CDE07559EAE /* Pods_Oliver_App_IOS_Oliver_App_IOSUITests.framework */,
+				465DAD108E851FC7EC5CE391 /* Pods_Oliver_App_IOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBFAA9331660FDB7977B435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A8DAC1816CDA8C96B52E103 /* Pods-Oliver App IOS.debug.xcconfig */,
+				F85490CE91456B39CA0141DD /* Pods-Oliver App IOS.release.xcconfig */,
+				0236CAF470B2EB9EFD84518B /* Pods-Oliver App IOS-Oliver App IOSUITests.debug.xcconfig */,
+				11DE24A8DC6EFC21A955C323 /* Pods-Oliver App IOS-Oliver App IOSUITests.release.xcconfig */,
+				E819CAFF29258FB3C84BC730 /* Pods-Oliver App IOSTests.debug.xcconfig */,
+				907E5D542A91724258AD3044 /* Pods-Oliver App IOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6D018B2553E5B500C30BA4 /* Oliver App IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D01B62553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOS" */;
+			buildPhases = (
+				9CD1F164E6CAE2182993B291 /* [CP] Check Pods Manifest.lock */,
+				1A6D01882553E5B500C30BA4 /* Sources */,
+				1A6D01892553E5B500C30BA4 /* Frameworks */,
+				1A6D018A2553E5B500C30BA4 /* Resources */,
+				5725A4DBF9FEC6DDD7141464 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Oliver App IOS";
+			productName = "Oliver App IOS";
+			productReference = 1A6D018C2553E5B500C30BA4 /* Oliver App IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A6D01A12553E5B700C30BA4 /* Oliver App IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D01B92553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSTests" */;
+			buildPhases = (
+				524303D3AD4D398D446747F9 /* [CP] Check Pods Manifest.lock */,
+				1A6D019E2553E5B700C30BA4 /* Sources */,
+				1A6D019F2553E5B700C30BA4 /* Frameworks */,
+				1A6D01A02553E5B700C30BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6D01A42553E5B700C30BA4 /* PBXTargetDependency */,
+			);
+			name = "Oliver App IOSTests";
+			productName = "Oliver App IOSTests";
+			productReference = 1A6D01A22553E5B700C30BA4 /* Oliver App IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A6D01AC2553E5B800C30BA4 /* Oliver App IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6D01BC2553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSUITests" */;
+			buildPhases = (
+				77C476977C2C1D9B756DF127 /* [CP] Check Pods Manifest.lock */,
+				1A6D01A92553E5B800C30BA4 /* Sources */,
+				1A6D01AA2553E5B800C30BA4 /* Frameworks */,
+				1A6D01AB2553E5B800C30BA4 /* Resources */,
+				BB1A8CCF27A4BF2215F21218 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6D01AF2553E5B800C30BA4 /* PBXTargetDependency */,
+			);
+			name = "Oliver App IOSUITests";
+			productName = "Oliver App IOSUITests";
+			productReference = 1A6D01AD2553E5B800C30BA4 /* Oliver App IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6D01842553E5B500C30BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					1A6D018B2553E5B500C30BA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					1A6D01A12553E5B700C30BA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1A6D018B2553E5B500C30BA4;
+					};
+					1A6D01AC2553E5B800C30BA4 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 1A6D018B2553E5B500C30BA4;
+					};
+				};
+			};
+			buildConfigurationList = 1A6D01872553E5B500C30BA4 /* Build configuration list for PBXProject "Oliver App IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6D01832553E5B500C30BA4;
+			productRefGroup = 1A6D018D2553E5B500C30BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6D018B2553E5B500C30BA4 /* Oliver App IOS */,
+				1A6D01A12553E5B700C30BA4 /* Oliver App IOSTests */,
+				1A6D01AC2553E5B800C30BA4 /* Oliver App IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6D018A2553E5B500C30BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3A53BB257B818300BFB11B /* ComapnyDetailCVC.xib in Resources */,
+				1A3E6B0E25591F7F0056524D /* assets.bundle in Resources */,
+				1A3E6B0F25591F7F0056524D /* CallingCodes.plist in Resources */,
+				1A4582DB255EB1BB0011AE53 /* RegisterTableViewCell.xib in Resources */,
+				1A814A20256FF3A0001C0EC4 /* Home.storyboard in Resources */,
+				1A3A53CA257B87EC00BFB11B /* CompantDatilTVC.xib in Resources */,
+				1A6D019C2553E5B700C30BA4 /* LaunchScreen.storyboard in Resources */,
+				1A6D01992553E5B700C30BA4 /* Assets.xcassets in Resources */,
+				1A49613E25722F2900B0C951 /* NegociosTableViewCell.xib in Resources */,
+				1A6950472556CE9A00E511BD /* GoogleService-Info.plist in Resources */,
+				1A6D01C72554331E00C30BA4 /* Bg.png in Resources */,
+				1A6D01972553E5B500C30BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01A02553E5B700C30BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01AB2553E5B800C30BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		524303D3AD4D398D446747F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oliver App IOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5725A4DBF9FEC6DDD7141464 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oliver App IOS/Pods-Oliver App IOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oliver App IOS/Pods-Oliver App IOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oliver App IOS/Pods-Oliver App IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C476977C2C1D9B756DF127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oliver App IOS-Oliver App IOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD1F164E6CAE2182993B291 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oliver App IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1A8CCF27A4BF2215F21218 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oliver App IOS-Oliver App IOSUITests/Pods-Oliver App IOS-Oliver App IOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oliver App IOS-Oliver App IOSUITests/Pods-Oliver App IOS-Oliver App IOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oliver App IOS-Oliver App IOSUITests/Pods-Oliver App IOS-Oliver App IOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6D01882553E5B500C30BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3A539E257B6ECC00BFB11B /* CompanyHomeDetailVC.swift in Sources */,
+				1A49613D25722F2900B0C951 /* NegociosTableViewCell.swift in Sources */,
+				1A4961432572387D00B0C951 /* NegociosRegisterViewController.swift in Sources */,
+				1AFCC2632555318100162FE3 /* OtpViewController.swift in Sources */,
+				1A6D01CE2554380E00C30BA4 /* LoginViewController.swift in Sources */,
+				1A4582DA255EB1BB0011AE53 /* RegisterTableViewCell.swift in Sources */,
+				1AFCC29025558A5E00162FE3 /* RegisterViewController.swift in Sources */,
+				1AFCC28B25556D8700162FE3 /* LoginWithPinViewController.swift in Sources */,
+				1A6D01942553E5B500C30BA4 /* ViewController.swift in Sources */,
+				1A4961312572264300B0C951 /* NegociosListViewController.swift in Sources */,
+				1A6D01902553E5B500C30BA4 /* AppDelegate.swift in Sources */,
+				1A814A26256FF3D1001C0EC4 /* HomeViewController.swift in Sources */,
+				1A6D01922553E5B500C30BA4 /* SceneDelegate.swift in Sources */,
+				1A4059E5257B60FB00CB1EE3 /* CompanyHomeViewController.swift in Sources */,
+				1A3E6B1025591F7F0056524D /* ADCountryPicker.swift in Sources */,
+				1A3A53BA257B818300BFB11B /* ComapnyDetailCVC.swift in Sources */,
+				1A496137257229CD00B0C951 /* GlobleClass.swift in Sources */,
+				1A3E6B1125591F7F0056524D /* ADCountry.swift in Sources */,
+				1A3A53C9257B87EC00BFB11B /* CompantDatilTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D019E2553E5B700C30BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D01A72553E5B800C30BA4 /* Oliver_App_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6D01A92553E5B800C30BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6D01B22553E5B800C30BA4 /* Oliver_App_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6D01A42553E5B700C30BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6D018B2553E5B500C30BA4 /* Oliver App IOS */;
+			targetProxy = 1A6D01A32553E5B700C30BA4 /* PBXContainerItemProxy */;
+		};
+		1A6D01AF2553E5B800C30BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6D018B2553E5B500C30BA4 /* Oliver App IOS */;
+			targetProxy = 1A6D01AE2553E5B800C30BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A6D01952553E5B500C30BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6D01962553E5B500C30BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A6D019A2553E5B700C30BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6D019B2553E5B700C30BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6D01B42553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A6D01B52553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6D01B72553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8DAC1816CDA8C96B52E103 /* Pods-Oliver App IOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29M9ZN5YTU;
+				INFOPLIST_FILE = "Oliver App IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElGroupH3RO3S.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6D01B82553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85490CE91456B39CA0141DD /* Pods-Oliver App IOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29M9ZN5YTU;
+				INFOPLIST_FILE = "Oliver App IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ElGroupH3RO3S.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A6D01BA2553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E819CAFF29258FB3C84BC730 /* Pods-Oliver App IOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oliver App IOS.app/Oliver App IOS";
+			};
+			name = Debug;
+		};
+		1A6D01BB2553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 907E5D542A91724258AD3044 /* Pods-Oliver App IOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oliver App IOS.app/Oliver App IOS";
+			};
+			name = Release;
+		};
+		1A6D01BD2553E5B800C30BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0236CAF470B2EB9EFD84518B /* Pods-Oliver App IOS-Oliver App IOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Oliver App IOS";
+			};
+			name = Debug;
+		};
+		1A6D01BE2553E5B800C30BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DE24A8DC6EFC21A955C323 /* Pods-Oliver App IOS-Oliver App IOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Oliver App IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oliver.oliver.com.pe.Oliver-App-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Oliver App IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6D01872553E5B500C30BA4 /* Build configuration list for PBXProject "Oliver App IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01B42553E5B800C30BA4 /* Debug */,
+				1A6D01B52553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D01B62553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01B72553E5B800C30BA4 /* Debug */,
+				1A6D01B82553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D01B92553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01BA2553E5B800C30BA4 /* Debug */,
+				1A6D01BB2553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6D01BC2553E5B800C30BA4 /* Build configuration list for PBXNativeTarget "Oliver App IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6D01BD2553E5B800C30BA4 /* Debug */,
+				1A6D01BE2553E5B800C30BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6D01842553E5B500C30BA4 /* Project object */;
+}
