@@ -6,16 +6,81 @@
 //
 
 import UIKit
+import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
     var window: UIWindow?
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions)
+    {
+        let userPin = "1234"//  UserDefaults.standard.string(forKey: "Pin")  //
+        let userFireBaseID = "NjpFcCADpcNpv7B60wrPQfX0vQ03" //UserDefaults.standard.string(forKey:"UserFireBaseID")// 
 
-
-    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        if(userFireBaseID != nil) && (userPin != nil)
+        {
+            appDelegate.userID = userFireBaseID ?? ""
+            let storyBoard : UIStoryboard = UIStoryboard(name: "Home", bundle:nil)
+            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+            let obj = UINavigationController.init(rootViewController: nextViewController)
+            self.window?.rootViewController = obj
+            self.window?.makeKeyAndVisible()
+            
+        }
+        
+        else if(userFireBaseID == nil || userFireBaseID.isEmpty == true) && (userPin != nil)
+        {
+            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+            let nextViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+            let obj = UINavigationController.init(rootViewController: nextViewController)
+            self.window?.rootViewController = obj
+            self.window?.makeKeyAndVisible()
+        }
+        else if(userFireBaseID != nil)
+        {
+            let userID = String(format: "Users/%@", userFireBaseID as! CVarArg)
+            let userRef = Database.database().reference().child(userID)
+            userRef.observeSingleEvent(of: .value) { (snapshot) in
+            if let dict = snapshot.value as? [String: Any]
+            {
+                 
+                    if((dict["pin"] as? String ?? "").count > 0  && dict["user_is_enabled"] as? Bool ?? false == true)
+                     {
+                         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+                         let obj = UINavigationController.init(rootViewController: nextViewController)
+                         self.window?.rootViewController = obj
+                         self.window?.makeKeyAndVisible()
+                     }
+                     else
+                     {
+                         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                         let nextViewController = storyBoard.instantiateViewController(withIdentifier: "RegisterViewController") as! RegisterViewController
+                        nextViewController.userID = (userFireBaseID)
+                         let obj = UINavigationController.init(rootViewController: nextViewController)
+                         self.window?.rootViewController = obj
+                         self.window?.makeKeyAndVisible()
+                     }
+            }
+            else
+            {
+                 let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+                 let nextViewController = storyBoard.instantiateViewController(withIdentifier: "RegisterViewController") as! RegisterViewController
+                 let obj = UINavigationController.init(rootViewController: nextViewController)
+                 self.window?.rootViewController = obj
+                 self.window?.makeKeyAndVisible()
+              }
+            }
+        }
+        else
+        {
+          guard let windowScene = (scene as? UIWindowScene) else {return}
+          window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+          window?.windowScene = windowScene
+          let storyboard = UIStoryboard(name: "Main", bundle: nil)
+          let inititalViewContoller = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+          let obj = UINavigationController.init(rootViewController: inititalViewContoller)
+          window?.rootViewController = obj
+          window?.makeKeyAndVisible()
+        }
         guard let _ = (scene as? UIWindowScene) else { return }
     }
 
